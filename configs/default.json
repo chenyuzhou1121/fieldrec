@@ -1,0 +1,38 @@
+{
+  "state": {
+    "residual_clip": 1.0
+  },
+  "field": {
+    "grid_size": 20,
+    "x_range": [
+      -1.0,
+      1.0
+    ],
+    "y_range": [
+      -1.0,
+      1.0
+    ],
+    "min_shared_cell_transitions": 30,
+    "min_shared_cell_users": 5,
+    "min_context_cell_transitions": 3,
+    "min_context_cell_users": 2,
+    "min_context_transitions": 500,
+    "min_context_users": 200,
+    "shrinkage_prior_ess": 25.0,
+    "covariance_regularization": 0.0001,
+    "covariance_shrinkage": 0.05,
+    "min_variance": 1e-05,
+    "max_fallback_cells": 2.0
+  },
+  "response": {
+    "kappa_fast": -1,
+    "kappa_slow": 1,
+    "beta": 0.5,
+    "tau": 0.0
+  },
+  "mobility": {
+    "window": 5,
+    "min_prior": 2,
+    "threshold_quantile": 0.5
+  }
+}

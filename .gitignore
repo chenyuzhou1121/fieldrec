@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.npz
+*.npy
+*.parquet
+*.pt
+*.pth
+*.pkl
+data/
+outputs/
+*.log
+.env*
